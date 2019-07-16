@@ -1,44 +1,154 @@
-/*
-Error: File to import not found or unreadable: .
-        on line 1 of main.scss
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif; }
 
-1: @import "";
+header {
+  background-color: #143642;
+  font-size: 20px;
+  padding: 1em 0em 0em 0em;
+  margin-bottom: 0px;
+  color: #EC9A29; }
 
-Backtrace:
-main.scss:1
-/usr/lib/ruby/vendor_ruby/sass/tree/import_node.rb:67:in `rescue in import'
-/usr/lib/ruby/vendor_ruby/sass/tree/import_node.rb:44:in `import'
-/usr/lib/ruby/vendor_ruby/sass/tree/import_node.rb:28:in `imported_file'
-/usr/lib/ruby/vendor_ruby/sass/tree/import_node.rb:37:in `css_import?'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:313:in `visit_import'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `map'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:168:in `visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:188:in `visit_root'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:159:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:8:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:36:in `css_tree'
-/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:381:in `_render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:298:in `render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:387:in `run'
-/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:63:in `process_result'
-/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'
-/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'
-/usr/bin/sass:8:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: .\A         on line 1 of main.scss\A \A 1: @import \"\";"; }
+div.email {
+  text-align: center; }
+
+.canvas-input:focus {
+  outline: none;
+  caret-color: #EC9A29; }
+
+.canvas-input {
+  border: none;
+  border-bottom: solid #EC9A29 1px;
+  background-color: transparent;
+  font-size: 15px;
+  margin-left: 5px;
+  color: #EC9A29; }
+
+.operate {
+  cursor: pointer; }
+
+#topHeader {
+  padding-bottom: 1em; }
+
+.x-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.topContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto; }
+
+dl {
+  list-style-type: none;
+  padding: 0px;
+  font-weight: bold; }
+
+#menu dl dt {
+  list-style-type: none; }
+
+dt.menu__item {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 1em 0px 1em;
+  border: #9d9d9d 1px solid;
+  border-radius: 10px;
+  margin: 10px; }
+
+dt.menu__item:hover {
+  color: #EC9A29;
+  background-color: #143642;
+  cursor: pointer; }
+
+dt.menu__item {
+  text-decoration: none; }
+
+h6 {
+  margin-left: 10px; }
+
+p {
+  margin: 0px 50px 0px 0px;
+  font-size: 20px; }
+
+a {
+  color: #2B2D42;
+  font-size: 15px; }
+
+dd > span {
+  flex-wrap: wrap;
+  display: block; }
+
+div.col-8 {
+  text-align: center; }
+
+div.col {
+  margin-left: 20px; }
+
+.hidden {
+  display: none; }
+
+div.bottomHeader {
+  border: #EC9A29 0.5px solid; }
+
+div.firstBottomHeader {
+  display: flex;
+  justify-content: left;
+  padding: 10px 0px 10px 30px;
+  color: #EC9A29;
+  background-color: #143642; }
+
+div.secondBottomHeader {
+  border: #D2E0E6 0.5px solid;
+  margin-top: 30px; }
+
+#app {
+  margin-top: 35px; }
+
+div.frontEnd {
+  margin-top: 30px;
+  margin-left: 30px; }
+
+#myCanvas {
+  box-shadow: #9d9d9d 0px 0px 80px 1px; }
+
+dd > span {
+  margin-left: 30px; }
+
+.firstBottomHeader > span {
+  font-size: 22px;
+  margin-right: 5px; }
+
+.graphic-body .columns-container, .background-body .columns-container {
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+img {
+  margin-right: 5px; }
+
+ul.list {
+  display: flex;
+  margin: 0 auto;
+  padding: 5px; }
+
+.list {
+  list-style-type: none;
+  padding: 20px; }
+
+div.col {
+  margin-right: 30px; }
+
+.form-control {
+  width: 80%;
+  margin-left: 25px; }
+
+#logo {
+  width: 50px;
+  height: 50px; }
+
+/*# sourceMappingURL=main.css.map */

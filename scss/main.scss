@@ -1,1 +1,181 @@
-@import "";
+*{
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background-color: #143642;
+  font-size: 20px;
+  padding: 1em 0em 0em 0em;
+  margin-bottom: 0px;
+  color: #EC9A29;
+}
+div.email{
+  text-align: center;
+}
+.canvas-input:focus {
+  outline: none;
+  caret-color: #EC9A29;
+}
+
+.canvas-input {
+  border:none;
+  border-bottom: solid #EC9A29 1px;
+  background-color: transparent;
+  font-size: 15px;
+  margin-left:5px;
+  color: #EC9A29;
+}
+.operate {
+  cursor: pointer;
+}
+#topHeader {
+  padding-bottom: 1em;
+}
+
+
+.x-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.topContainer{
+  display: flex;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+dl {
+  list-style-type: none;
+  padding: 0px;
+  font-weight: bold;
+}
+#menu dl dt {
+  list-style-type: none;
+}
+
+dt.menu__item {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 1em 0px 1em ;
+  border: #9d9d9d 1px solid;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+dt.menu__item:hover  {
+  color: #EC9A29;
+  background-color: #143642;
+  cursor: pointer;
+}
+
+dt.menu__item  {
+  text-decoration: none;
+}
+
+
+h6 {
+  margin-left: 10px;
+}
+
+p {
+  margin: 0px 50px 0px 0px;
+  font-size: 20px;
+}
+
+a {
+  color: #2B2D42;
+  font-size: 15px;
+}
+
+dd > span{
+  flex-wrap: wrap;
+  display: block;
+}
+
+div.col-8 {
+  text-align: center;
+}
+
+div.col{
+  margin-left: 20px;
+}
+
+.hidden{
+  display: none;
+}
+
+div.bottomHeader{
+  border: #EC9A29 0.5px solid;
+}
+
+div.firstBottomHeader{
+  display: flex;
+  justify-content:left;
+  padding: 10px 0px 10px 30px;
+  color: #EC9A29;
+  background-color: #143642;
+}
+
+div.secondBottomHeader{
+  border: #D2E0E6 0.5px solid;
+  margin-top: 30px;
+}
+
+#app {
+  margin-top: 35px;
+}
+
+div.frontEnd{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#myCanvas{
+  box-shadow: #9d9d9d 0px 0px 80px 1px;
+}
+
+dd > span{
+  margin-left: 30px;
+}
+.firstBottomHeader > span{
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+
+.graphic-body .columns-container, .background-body .columns-container {
+  padding: 0;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+img{
+  margin-right: 5px;
+}
+ul.list{
+  display: flex;
+  margin: 0 auto;
+  padding: 5px;
+}
+.list {
+  list-style-type: none;
+  padding: 20px;
+}
+
+div.col{
+  margin-right: 30px;
+}
+.form-control{
+  width: 80%;
+  margin-left: 25px;
+}
+#logo{
+  width: 50px;
+  height: 50px;
+}

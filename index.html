@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Business  Card Template</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="./js/glfx.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <header>
+        <section id="topHeader">
+            <div class="topContainer">
+                <div class="email">
+                    <span class="invert">Email</span>
+                    <span class="neutral"><i class="fas fa-envelope"></i></span>
+                    <span class="highlight">mara.alex@ymail.com</span>
+                </div>
+                <div class="phone invert">Phone <i class="fas fa-phone neutral"></i>
+                    <b class="highlight"> 0748 920  XXX</b>
+                </div>
+            </div>
+        </section>
+    </header>
+    <div class="bottomHeader">
+    </div>
+    <div class="firstBottomHeader">
+        <span><i class="fab fa-instagram"></i></span> <p>Instagram</p>
+        <span><i class="fab fa-facebook-square"></i></span> <p>Facebook</p>
+        <span><i class="fab fa-twitch"></i></span> <p>Twitch</p>
+        <span><i class="fab fa-youtube"></i></span> <p>YouTube</p>
+    </div>
+    <div class="frontEnd"> Front End Developer Business Card Template</div>
+    <div class="secondBottomHeader">
+    </div>
+    <div id="app" class="container-fluid">
+        <img src="./image/web1.png" style="display: none"  id="logo"/>
+        <div class="row">
+            <div class="col-2">
+                <nav id="menu"><h6>Choose a design</h6>
+                    <dl>
+                        <dt class="menu__item"> Format
+                        </dt>
+                        <dd class="hidden">
+                            <span class="operate" data-op="canvas-size" data-width="8.9" data-ratio="1.745">
+                                8.9 x 5.1
+                            </span>
+                            <span class="operate" data-op="canvas-size" data-width="10" data-ratio="1.667">
+                                10 x 6
+                            </span>
+                            <div class="form-group">
+                                <input type="text" class="form-control modifiers"  data-change="fillStyle" data-parent="format" aria-describedby="emailHelp" placeholder="color">
+                                <small id="emailHelp" class="form-text text-muted"></small>
+                            </div>
+
+                        </dd>
+
+                       <dt class="menu__item"> Name :<input type="text"  class="canvas-input" data-target="name">
+
+                        </dt>
+                        <dd class="hidden">
+                            <span>font</span>
+                            <div class="form-group">
+                                <input type="text" class="form-control modifiers"  data-change="color" data-parent="name" aria-describedby="emailHelp" placeholder="color">
+                                <small id="emailHelp" class="form-text text-muted"></small>
+                            </div>
+                            <span>font-size</span>
+                        </dd>
+
+                        <dt class="menu__item"> Job :<input type="text"  class="canvas-input" data-target="job">
+
+                        <dd class="hidden">
+                            <span>font</span>
+                        <div class="form-group">
+                            <input type="text" class="form-control modifiers"  data-change="color" data-parent="job" aria-describedby="emailHelp" placeholder="color">
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
+                            <span>font-size</span>
+                        </dd>
+
+                        </dt>
+                        <dt class="menu__item">Phone :<input type="text"  class="canvas-input" data-target="phone">
+
+                        <dd class="hidden">
+                            <span>font</span>
+                        <div class="form-group">
+                            <input type="text" class="form-control modifiers"  data-change="color" data-parent="phone" aria-describedby="emailHelp" placeholder="color">
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
+                            <span>font-size</span>
+                        </dd>
+
+                        </dt>
+                        <dt class="menu__item"> Email :<input type="text"  class="canvas-input" data-target="email">
+
+                        <dd class="hidden">
+                            <span>font</span>
+                        <div class="form-group">
+                            <input type="text" class="form-control modifiers"  data-change="color" data-parent="email" aria-describedby="emailHelp" placeholder="color">
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
+                            <span>font-size</span>
+                        </dd>
+                        </dt>
+                    </dl>
+                </nav>
+            </div>
+            <div class="col-8">
+                <h6>Customize your business card</h6>
+
+                <canvas id="myCanvas" width="750" height="430 " style="border:1px solid #aaaaaa ; ">
+
+                </canvas>
+
+
+
+            </div>
+            <div class="col-2">
+                <h6>Preset</h6>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
