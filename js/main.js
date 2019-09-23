@@ -17,23 +17,23 @@ function BusinessCard(props) {
         },
         name: {
             text: 'Alexandru MARA',
-            poz: [275, 175],
+            poz: [450, 175],
             color: '#EC9A29',
             fontSize:'50px'
         },
         job: {
             text: 'web DEV',
-            poz: [325, 215 ],
+            poz: [510, 215 ],
             color: '#EC9A29'
         },
         phone: {
-            text: '0748 920 507',
-            poz: [520, 375],
+            text: 'Tel: 0748 920 XXX',
+            poz: [470, 415],
             color: '#EC9A29'
         },
         email: {
             text: 'mara.alex@ymail.com',
-            poz: [30, 375],
+            poz: [30, 415],
             color: '#EC9A29'
         },
     };
